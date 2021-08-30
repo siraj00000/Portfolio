@@ -1,0 +1,36 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+/* Making the font global */
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* color variables */
+:root{
+    --primary-white: #fff;
+    --primary-yellow: #fcca03
+}
+
+/* Navbar */
+.logo{
+    width: 10.25rem;    
+    max-width: 12.25rem;
+    padding: 0 !important;
+    height: 6rem !important;
+}
+
+/* Navbar links */
+.links{
+    font-weight: 500;
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: var(--primary-white) !important;
+    margin: 0 0.75rem;
+    border-top: .1875rem solid transparent;
+}
+
+.links:active, .links:focus{
+    border-top: .1875rem solid var(--primary-yellow);
+}
